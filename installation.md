@@ -22,7 +22,7 @@ First you will need to download the latest version of the project by executing t
     
 Once this is done you just need to add in your server configuration the RageUI resource startup.
 
-    start RageUI
+    ensure RageUI
 
 Then you have to create your new resource in which you want to use the library, once this is done restart your server.
 
