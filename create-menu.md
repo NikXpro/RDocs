@@ -7,6 +7,10 @@
 <a name="create-menu"></a>
 ### Create a menu
 
-To create your menu we will use the [RMenu](/docs/{{version}}/rmenu) utility provided with RageUI, if you want to understand how it works I invite you to check by yourself on the documentation.
+To create your menu you can use the [RMenu](/docs/{{version}}/rmenu) utility supplied with RageUI or else use a variable, if you want to understand how it works I invite you to check for yourself on the documentation.
 
-    RMenu.Add('showcase', 'main', RageUI.CreateMenu("RageUI", "showcase"))
+1. #### New method
+		local mainMenu = RageUI.CreateMenu("Menu title", "Menu description")
+
+5. #### Old method
+ 		RMenu.Add('showcase', 'main', RageUI.CreateMenu("RageUI", "showcase"))
