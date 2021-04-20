@@ -6,7 +6,7 @@
 <a name="example"></a>
 ### Example
     
-    RageUI.Checkbox('Checkbox', description, index.checkbox, {}, {
+    RageUI.Checkbox('Checkbox', nil, index.checkbox, {}, {
         onChecked = function()
         
         end,
