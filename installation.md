@@ -31,7 +31,7 @@ Then you have to create your new resource in which you want to use the library, 
 
 To use RageUI in your resources, you just need to modify the resource's manifest. 
 If you want to include the whole library in a global way, just copy and paste the code below.
-
+```lua
 client_scripts {
     "@RageUI/RMenu.lua",
     "@RageUI/menu/RageUI.lua",
@@ -66,5 +66,6 @@ client_scripts {
     
     "@RageUI/menu/windows/UIHeritage.lua",
 }
+```
 
 All I have to do now is back up and restart your server, congratulations you now have RageUI working on your resources.
