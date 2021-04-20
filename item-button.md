@@ -6,14 +6,11 @@
 <a name="example"></a>
 ### Example
     
-    RageUI.Item.Button('Basic Items', nil, { }, true, {
+    RageUI.Button('Basic Items', description, {}, true, {
         onHovered = function()
-
+        
         end,
         onSelected = function()
-
+        
         end,
-        onActive = function()
-
-        end,
-    })
+    });
